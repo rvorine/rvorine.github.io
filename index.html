@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+  <meta name="theme-color" content="#f0671b">
+  <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+  <title>Ravikant</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Font-->
+  <link
+    href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100,400italic,500,500italic,700,900,900italic,700italic%7COswald:400,300,700'
+    rel='stylesheet' type='text/css'>
+  <!-- Design Style -->
+  <link rel="stylesheet" type="text/css" href="css/scroll.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- Icon -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+  <!-- Portfolio Thumbnail / Slider -->
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+  <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  <!-- Responsive -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <!-- Pie Chart / Skills -->
+  <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+  <!-- Send Email -->
+  <script type="text/javascript" src="js/sendemail.js"></script>
+  <!-- Progressbar / Skills-->
+  <script type="text/javascript" src="js/progressbar.js"></script>
+
+  <!-- firebase scripts -->
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.5.2/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.5.2/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.5.2/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.5.2/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.5.2/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+
+  <!-- Portfolio-->
+  <script src="js/modernizr.custom.js"></script>
+  <style>
+    .owl-theme .owl-controls .owl-page.active span,
+    .owl-theme .owl-controls.clickable .owl-page:hover span {
+      background-color: #f0671b;
+    }
+
+    .owl-theme .owl-controls .owl-page span {
+      border: 1px solid #000;
+    }
+
+    .grid-gallery figcaption span {
+      border-bottom: 3px solid #ee6817;
+      color: #9b9b9b;
+      display: block;
+      font-size: 12px;
+      margin: 0 0 8px;
+      padding: 0 0 8px;
+      text-transform: uppercase;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="container" class="container">
+    <!-- Left Menu / Logo-->
+    <aside class="menu" id="menu">
+      <div class="logo">
+        <!-- Logo image-->
+        <img src="images/logo.png" width="140" height="140" alt="" />
+        <!-- Logo name-->
+        <span>Ravikant</span></div>
+      <!-- Mobile Navigation-->
+      <a href="#menu1" class="menu-link"></a>
+      <!-- Left Navigation-->
+      <nav id="menu1" role="navigation">
+        <a href="#chapterintroduction"><span id="link_introduction" class="active">Home</span></a>
+        <a href="#chapterabout"><span id="link_about">About</span></a>
+        <a href="#chapterskills"><span id="link_skills">Skills</span></a>
+        <a href="#chapterexperience"><span id="link_experience">Experience</span></a>
+        <a href="#chaptereducation"><span id="link_education">Education</span></a>
+        <a href="#chapterportfolio"><span id="link_portfolio">Portfolio</span></a>
+        <a href="#chaptercontact"><span id="link_contact">Contact</span></a>
+        <!--<a href="blog.html"><span id="link_blog">Blog</span></a>-->
+      </nav>
+      <div class="social">
+        <!-- <a href="https://www.facebook.com/coo.rv" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> -->
+        <a href="https://twitter.com/rv2810" target="_blank" class="twitter"><i class="fab fa-stack-overflow"></i></a>
+        <a href="https://www.linkedin.com/in/rvorine/" target="_blank" class="linkedin"><i
+            class="fab fa-linkedin"></i></a>
+      </div>
+
+    </aside>
+    <!-- Go to top link for mobile device -->
+    <a href="#menu" class="totop-link">Go to the top</a>
+    <div class="content-scroller">
+      <div class="content-wrapper">
+
+        <!-- Introduction -->
+        <article class="content introduction noscroll" id="chapterintroduction">
+          <div class="inner">
+            <h2><span>HEllo, I'm</span><br>
+              Ravikant Vishwakarma</h2>
+            <span class="title">Android App Developer</span>
+          </div>
+          <div id="owl-demo" class="owl-carousel">
+            <div class="item"><img src="images/banner1.jpg" alt="" /></div>
+            <div class="item"><img src="images/banner2.jpg" alt="" /></div>
+          </div>
+        </article>
+
+        <!-- About -->
+        <article class="content about white-bg" id="chapterabout">
+          <div class="inner">
+            <h2>About</h2>
+            <div class="title-divider"></div>
+            <div class="about-con">
+              <ul>
+                <li>Name: Ravikant Vishwakarma</li>
+                <li>Email: <a href="mailto:ravikant.vishwakarma@hotmail.com">ravikant.vishwakarma@hotmail.com</a></li>
+                <li>Phone: <a href="tel://+91-8286903263/">+91-8286903263</a> </li>
+                <li>Date of birth: 28 October 1993</li>
+                <!--<li>Address: PO Box 16122 Collins Street West, Victoria, USA. address</li>-->
+                <li>Nationality: Indian</li>
+              </ul>
+              <h3>Professional Profile</h3>
+              <p>I caught fire coding.<br><br>
+
+                I love applying my coding skills to build something new while learning something new from it.<br><br>
+
+                My Specialties includes quickly learning new skills and programming languages, problem solving,
+                responsive design principle and MVVM and MVC methods of organizing code.
+                So far I have, Java, Kotlin, C#, AngularJS, Javascript, Firebase Firestore, Firebase Functions,
+                Git/GitHub under my belt, but I'm proficient into Java & Kotlin. I've started learning NodeJs, Flutter.
+                I'm still enthusiastically grabbing onto any other programming languages, framework or principles I can
+                integrate into the coding web in my head. <br>
+              </p>
+              <a href="doc/Ravikant_Vishwakarma_Resume.pdf" class="button" download="Rv's Resume">Download resume as PDF
+                format</a>
+              <!--<img src="http://placehold.it/150x134" class="signature" alt="" />-->
+            </div>
+          </div>
+        </article>
+
+        <!-- Skills -->
+        <article class="content skills gray-bg" id="chapterskills">
+          <div class="inner">
+            <h2>Skills</h2>
+            <div class="title-divider"></div>
+            <h3>Just My Awesome Skills</h3>
+            <!--<p>My Skills in development languages .</p>-->
+            <div class="skills-con">
+              <div class="container-sub margin-top50">
+                <div class="row">
+                  <!--<div class="col-6 margin-bottom50">
+                  <div class="col-6"><span class="chart" data-percent="40"><span class="percent"></span> </span></div>
+                  <div class="col-6 chart-text">
+                    <h4>HTML5</h4>
+                    <p>Expert, 6 months</p>
+                  </div>
+                </div>-->
+                  <div class="col-6 margin-bottom50">
+                    <div class="col-6"><span class="chart" data-percent="80"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Android</h4>
+                      <p>Advanced, 3+ years</p>
+                    </div>
+                  </div>
+                  <div class="col-6 margin-bottom50">
+                    <div class="col-6"><span class="chart" data-percent="70"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Java</h4>
+                      <p>Expert, 3+ years</p>
+                    </div>
+                  </div>
+                  <div class="col-6 margin-bottom50">
+                    <div class="col-6"><span class="chart" data-percent="60"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Kotlin</h4>
+                      <p>Medium, 1+ years</p>
+                    </div>
+                  </div>
+                  <div class="col-6 margin-bottom50">
+                    <div class="col-6"><span class="chart" data-percent="50"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Firebase</h4>
+                      <p>Medium, 1+ years</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="col-6"><span class="chart" data-percent="40"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Firebase functions</h4>
+                      <p>Medium, 6 months</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="col-6"><span class="chart" data-percent="50"><span class="percent"></span> </span></div>
+                    <div class="col-6 chart-text">
+                      <h4>Realm DB</h4>
+                      <p>Medium, 1+ years</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full-divider"></div>
+
+              <div class="container-sub">
+                <div class="row">
+                  <h3>Language Skills</h3>
+                  <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>-->
+                  <div class="progressbar-main margin-top50">
+                    <div class="progress-bar-description">Hindi Experienced</div>
+                    <div id="progressBar" class="progress">
+                      <div class="progress-value"></div>
+                    </div>
+                  </div>
+                  <div class="progressbar-main margin-top40">
+                    <div class="progress-bar-description">English</div>
+                    <div id="progressBar2" class="progress">
+                      <div class="progress-value"></div>
+                    </div>
+                  </div>
+                  <div class="progressbar-main margin-top40">
+                    <div class="progress-bar-description">Marathi</div>
+                    <div id="progressBar3" class="progress">
+                      <div class="progress-value"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Experience -->
+        <article class="content experience white-bg" id="chapterexperience">
+          <div class="inner">
+            <h2>Experience</h2>
+            <div class="title-divider"></div>
+            <h3>3+ Years Experience!</h3>
+            <p>I have 3+ years of Experience (1 year as "Freelancer" & 3+ year in Industry) in, Developing Android, iOS
+              Apps and Websites.</p>
+            <div class="experience-con">
+              <div class="container-sub">
+                <div class="full-divider"></div>
+                <div class="row">
+                  <div class="experience-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fab fa-android"></i></div>
+                      <div class="flot-left">
+                        <h5>Android Development</h5>
+                        <h4>App Developer</h4>
+                        <span>2014 - TILL DATE</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Complete Android Development with
+                      better UI and user friendly eye catching components and believe in making fast and fluid App.
+                    </div>
+                  </div>
+                  <div class="full-divider"></div>
+                  <div class="experience-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fab fa-windows"></i></div>
+                      <div class="flot-left">
+                        <h5>Windows Development</h5>
+                        <h4>App Developer</h4>
+                        <span>2013 - 2014</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Robust and all Device support Windows
+                      App, with all responsive, fast and fluid App. "Cortana" Integration makes App more Intelligent and
+                      user friendly. </div>
+                  </div>
+                  <div class="full-divider"></div>
+                  <div class="experience-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fab fa-html5"></i></div>
+                      <div class="flot-left">
+                        <h5>Web/HTML5</h5>
+                        <h4>UX Designer</h4>
+                        <span>2015 - 2016</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Full Responsive Web Design and eye
+                      catching design makes user experience more delightful, I believing in giving such experience to
+                      user with robust responsive so they can use in anysize of device. </div>
+                  </div>
+                  <!--<div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-quote-right"></i></div>
+                    <div class="flot-left">
+                      <h5>Matrix Media</h5>
+                      <h4>Visual / UI Designer</h4>
+                      <span>2008 - 2006</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>-->
+                  <!--<div class="full-divider"></div>
+                <div class="experience-details">
+                  <div class="col-6 margin-bottom50 margin-top50">
+                    <div class="col-3 icon-block"><i class="fa fa-bullhorn"></i></div>
+                    <div class="flot-left">
+                      <h5>Creatika Agency</h5>
+                      <h4>Graphic Designer</h4>
+                      <span>2006 - 2004</span> </div>
+                  </div>
+                  <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Education -->
+        <article class="content education gray-bg" id="chaptereducation">
+          <div class="inner">
+            <h2>Education</h2>
+            <div class="title-divider"></div>
+            <h3>Just My Education</h3>
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>-->
+            <div class="education-con">
+              <div class="container-sub">
+                <div class="full-divider"></div>
+                <div class="row">
+                  <div class="education-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fa fa-university"></i></div>
+                      <div class="flot-left">
+                        <h5>University of MGU</h5>
+                        <h4>BCA</h4>
+                        <span>2011 - 2015</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> Complete Graduation from MGU in BCA
+                      (Bachelor of Computer Application) in 2015 with core programing languages. </div>
+                  </div>
+                  <div class="full-divider"></div>
+                  <div class="education-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fa fa-certificate"></i></div>
+                      <div class="flot-left">
+                        <h5>NIIT</h5>
+                        <h4>Certification .Net</h4>
+                        <span>2012 - 2013</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> I've done Certification of .Net (C#,
+                      ASP .Net MVC 4, HTML5, Windows Store) from NIIT . </div>
+                  </div>
+                  <div class="full-divider"></div>
+                  <div class="education-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fa fa-book"></i></div>
+                      <div class="flot-left">
+                        <h5>Maharashtra Board</h5>
+                        <h4>HSC</h4>
+                        <span>2010 - 2011</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> I've Complete my Higher Secondary
+                      School in 2010-2011 with IT . </div>
+                  </div>
+                  <div class="full-divider"></div>
+                  <div class="education-details">
+                    <div class="col-6 margin-bottom50 margin-top50">
+                      <div class="col-3 icon-block"><i class="fa fa-book"></i></div>
+                      <div class="flot-left">
+                        <h5>Maharashtra Board</h5>
+                        <h4>SSC</h4>
+                        <span>2008 - 2009</span>
+                      </div>
+                    </div>
+                    <div class="col-6 margin-bottom50 margin-top50 no-margin-top"> I've Complete my Second Secondary
+                      School in 2008-2009 with good marks in boards. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Portfolio -->
+        <article class="content portfolio white-bg" id="chapterportfolio">
+          <div class="inner">
+            <h2>Portfolio</h2>
+            <div class="title-divider"></div>
+            <h3>My portfolio features a variety of projects and services</h3>
+            <p></p>
+            <div class="portfolio-con">
+              <div class="container-sub margin-top50">
+                <div class="row">
+                  <div id="grid-gallery" class="grid-gallery">
+                    <section class="grid-wrap">
+                      <ul class="grid">
+                        <li>
+                          <figure> <img src="images/xpresion_banner.jpg" alt="" />
+                            <figcaption>
+                              <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82"
+                                  alt="" />
+                                <h3>Xpresion</h3>
+                                <span>Android App Design & Development </span>
+                              </div>
+                            </figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure> <img src="images/edx_banner.jpg" alt="" />
+                            <figcaption>
+                              <div class="figcaption-details">
+                                <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                                <h3>EDX Pickup</h3>
+                                <span>Android App Design & Development</span>
+                              </div>
+                            </figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure> <img src="images/home_kart_banner.jpg" alt="" />
+                            <figcaption>
+                              <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82"
+                                  alt="" />
+                                <h3>Home Kart</h3>
+                                <span>Android App Design & Development</span>
+                              </div>
+                            </figcaption>
+                          </figure>
+                        </li>
+
+                        <!--<li>
+                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Fashion and You</h3>
+                              <span>APPS and Web Design</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>
+                      <li>
+                        <figure> <img src="http://placehold.it/700x475" alt=""/>
+                          <figcaption>
+                            <div class="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Whole Food Flour</h3>
+                              <span>Branding and Identity</span> </div>
+                          </figcaption>
+                        </figure>
+                      </li>-->
+                      </ul>
+                    </section>
+
+                    <!-- Lightbox Popup -->
+                    <section class="slideshow">
+                      <ul>
+                        <li>
+                          <figure>
+                            <figcaption>
+                              <h3>Xpresion</h3>
+                              <span>Android App Design & Development</span>
+                              <span>Link : <a style="color: #ee6817;" href="https://goo.gl/dkYSRh"
+                                  target="_blank">https://goo.gl/dkYSRh</a></span>
+                              <p>"Xpresion" is an App for Courier Industry for their DRS, Pickup and Delivery process.
+                                It helps courier boy get list of task to perform (Pickup or Deliver)
+                                and sync the DRS (List) on the go. The Key feature of "Xpresion" App is Tracking of
+                                Courier boy's Task (Showing location when courier boy Successfully Deliver)</p>
+                            </figcaption>
+                            <div id="owl-demo1" class="owl-carousel">
+                              <div class="item"><img src="images/xpresion_screen3.jpg" alt="" /></div>
+                              <div class="item"><img src="images/xpresion_screen2.jpg" alt="" /></div>
+                              <div class="item"><img src="images/xpresion_screen1.jpg" alt="" /></div>
+                            </div>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <figcaption>
+                              <h3>Edx Pickup</h3>
+                              <span>Android App Design & Development</span>
+                              <span>Link : <a style="color: #ee6817;" href="https://goo.gl/7qzx6e"
+                                  target="_blank">https://goo.gl/7qzx6e</a></span>
+                              <p>"EDX Pickup" is an App for Courier or Package pickup process, It allows user to
+                                initiate pickup from home/office through App in given time.</p>
+                            </figcaption>
+                            <div id="owl-demo3" class="owl-carousel">
+                              <div class="item"><img src="images/edx_screen1.jpg" alt="" /></div>
+                              <div class="item"><img src="images/edx_screen2.jpg" alt="" /></div>
+                              <div class="item"><img src="images/edx_screen3.jpg" alt="" /></div>
+                            </div>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <figcaption>
+                              <h3>Home Kart</h3>
+                              <span>Android App Development & Design</span>
+                              <span>Link : <a style="color: #ee6817;" href="https://goo.gl/UBdMCu"
+                                  target="_blank">https://goo.gl/UBdMCu</a></span>
+                              <p>"Home Kart" is an online grocery shopping app, User can select and buy Vegetable,
+                                Fruits & Bakery from there local shops.</p>
+                            </figcaption>
+                            <div id="owl-demo2" class="owl-carousel">
+                              <div class="item"><img src="images/hk_screen1.jpg" alt="" /></div>
+                              <div class="item"><img src="images/hk_screen2.jpg" alt="" /></div>
+                              <div class="item"><img src="images/hk_screen3.jpg" alt="" /></div>
+                              <div class="item"><img src="images/hk_screen4.jpg" alt="" /></div>
+                              <div class="item"><img src="images/hk_screen5.jpg" alt="" /></div>
+                            </div>
+                          </figure>
+                        </li>
+                      </ul>
+                      <nav> <span class="fa nav-prev"></span> <span class="fa nav-next"></span> <span
+                          class="fa nav-close"></span> </nav>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact -->
+        <article class="content contact gray-bg" id="chaptercontact">
+          <div class="inner">
+            <h2>Contact</h2>
+            <div class="title-divider"></div>
+            <h3>Let's Keep In Touch</h3>
+            <!--<p>For more information please drop me a line below and contact through E-Mail.</p>-->
+            <div class="full-divider"></div>
+            <div class="contact-con margin-top50">
+              <div class="container-sub">
+                <div class="row">
+                  <div class="contact-details">
+                    <div class="col-6">
+                      <div class="contact-text">
+                        <div class="col-2 icon-block address"><i class="fa fa-map-marker"></i></div>
+                        <div class="flot-left"> <strong>Ravikant Vishwakarma</strong><br>
+                          Samata Nagar, Kandivali East,<br>
+                          Mumbai 400101, India. </div>
+                      </div>
+                      <div class="contact-text">
+                        <div class="col-2 icon-block phone"><i class="fa fa-phone"></i></div>
+                        <div class="flot-left"> <strong>Phone</strong><br>
+                          <a href="tel://+91-8286903263/">+91-8286903263</a> </div>
+                      </div>
+                      <div class="contact-text">
+                        <div class="col-2 icon-block email"><i class="fa fa-envelope"></i></div>
+                        <div class="flot-left"> <strong>Email</strong><br>
+                          <a href="mailto:ravikant.vishwakarma@hotmail.com">ravikant.vishwakarma@hotmail.com</a> </div>
+                      </div>
+                    </div>
+                    <div class="col-6 m-margin-top30">
+                      <h3>I'm also on Social Networks</h3>
+                      Follow me on Social Networks.
+                      <div class="contact-social margin-top30">
+                        <!-- <a href="https://www.facebook.com/coo.rv" target="_blank"><i class="fa fa-facebook"></i></a> -->
+                        <a href="https://twitter.com/rv2810" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <!--<a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                      <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>-->
+                        <a href="https://www.linkedin.com/in/rvorine/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full-divider"></div>
+              <div class="container-sub">
+                <div class="row">
+                  <div class="contact-form">
+                    <h3>Drop Me a Line</h3>
+                    <form id="form1" name="form1" method="post">
+                      <input name="name" type="text" id="name" placeholder="Your Name..." />
+                      <input name="email" type="text" id="email" placeholder="Your Email..." />
+                      <textarea name="message" id="message" cols="45" rows="5" placeholder="Your Message..."></textarea>
+                      <input type="submit" name="button" id="button" value="say hello!">
+                      <div id="successmsg"></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Introduction -->
+        <article class="content introduction-end" id="chapterthankyou">
+          <div class="inner">
+            <div class="introduction-end-con margin-bottom50">
+              <h3><strong>Ravikant</strong></h3>
+              <div id="rotate" class="rotate">
+                <div><span>awesome.</span></div>
+                <div><span>invincible.</span></div>
+                <div><span>unbeatable.</span></div>
+                <div><span>indestructible.</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- content-wrapper -->
+    </div>
+    <!-- content-scroller -->
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/head.min.js"></script>
+  <!-- Portfolio Thumbnail -->
+  <script type="text/javascript" src="js/imagesloaded.min.js"></script>
+  <script type="text/javascript" src="js/masonry.min.js"></script>
+  <script type="text/javascript" src="js/class_helper.js"></script>
+  <script type="text/javascript" src="js/grid_gallery.js"></script>
+  <!-- Portfolio Grid -->
+  <script>
+    new CBPGridGallery(document.getElementById('grid-gallery'));
+  </script>
+  <!-- Portfolio Slider-->
+  <script type="text/javascript" src="js/carousel.js"></script>
+  <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+  <script type="text/javascript" src="js/text.rotator.js"></script>
+  <!-- Page Scrolling -->
+  <script>
+    head.js(
+      { mousewheel: "js/jquery.mousewheel.js" },
+      { mwheelIntent: "js/mwheelIntent.js" },
+      { jScrollPane: "js/jquery.jscrollpane.min.js" },
+      { history: "js/jquery.history.js" },
+      { stringLib: "js/core.string.js" },
+      { easing: "js/jquery.easing.1.3.js" },
+      { smartresize: "js/jquery.smartresize.js" },
+      { page: "js/jquery.page.js" }
+    );
+  </script>
+  <!-- Fit Video -->
+  <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  <!-- All Javascript Component-->
+  <script src="js/settings.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+        //document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+      } catch (e) {
+        console.error(e);
+        document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
